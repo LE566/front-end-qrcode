@@ -1,0 +1,7 @@
+{
+  "name": "CodeQR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
