@@ -4,7 +4,8 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "build": "echo 'Build skipped: using pre-built files'"
+    "build": "ng build",
+    "install": "exit 0" 
   },
   "private": true,
   "dependencies": {
@@ -16,13 +17,6 @@
     "@angular/platform-browser": "20.3.25",
     "@angular/platform-browser-dynamic": "20.3.25",
     "@angular/router": "20.3.25",
-    "@capacitor-community/barcode-scanner": "^4.0.1",
-    "@capacitor/android": "^8.4.1",
-    "@capacitor/app": "8.1.0",
-    "@capacitor/core": "8.4.1",
-    "@capacitor/haptics": "8.0.2",
-    "@capacitor/keyboard": "8.0.5",
-    "@capacitor/status-bar": "8.0.2",
     "@ionic/angular": "^8.0.0",
     "angularx-qrcode": "^21.0.5",
     "ionicons": "^7.0.0",
