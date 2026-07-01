@@ -14,7 +14,7 @@ export interface SolicitudAuth {
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   private http = inject(HttpClient);
-  private apiUrl = 'https://backend-qrcode-9he6b46t0-le566s-projects.vercel.app/api/auth';
+  private apiUrl = 'https://backend-qrcode-8x2h.onrender.com/api/auth';
   
   solicitudes = signal<SolicitudAuth[]>([]);
 
